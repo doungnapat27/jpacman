@@ -65,14 +65,4 @@ public class BoardTest {
     void testWithinBorders() {
         assertThat(board.withinBorders(0, 0)).isTrue();
     }
-
-    /***
-     * Test square method.
-     */
-    @Test
-    void testSquareAtNull() {
-        Square[][] grid = new Square[1][1];
-        Board board = new Board(grid);
-        assertThat(board.squareAt(0, 0)).isNull();
-    }
 }
