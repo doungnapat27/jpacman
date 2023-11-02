@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 /***
- * This is test cases for board class
+ * This is test cases for board class.
  */
 
 public class BoardTest {
@@ -14,6 +14,10 @@ public class BoardTest {
      * This is a set up method.
      */
     private Board board;
+
+    /***
+     * This is the set up section for initiate the environment.
+     */
     @BeforeEach
     void setUp() {
         Square[][] grid = new Square[1][1];
