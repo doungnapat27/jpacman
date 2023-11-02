@@ -11,7 +11,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class BoardTest {
 
     /**
-     * set Up 
+     * This is a set up method.
      */
     private Board board;
     @BeforeEach
@@ -22,7 +22,7 @@ public class BoardTest {
     }
 
     /***
-     * test board not null
+     * Test board not null method.
      */
     @Test
     void testBoardNotNull() {
@@ -30,7 +30,7 @@ public class BoardTest {
     }
 
     /***
-     * test board dimension
+     * Test board dimension method.
      */
     @Test
     void testBoardDimension() {
@@ -39,7 +39,7 @@ public class BoardTest {
     }
 
     /***
-     * test basic square
+     * Test basic square method.
      */
     @Test
     void testBasicSquare() {
@@ -47,7 +47,7 @@ public class BoardTest {
     }
 
     /***
-     * test invariant
+     * Test invariant method.
      */
     @Test
     void testInvariant() {
@@ -55,7 +55,7 @@ public class BoardTest {
     }
 
     /***
-     * test within borders
+     * Test within borders method.
      */
     @Test
     void testWithinBorders() {
@@ -63,7 +63,7 @@ public class BoardTest {
     }
 
     /***
-     * test square
+     * Test square method.
      */
     @Test
     void testSquareAtNull() {
