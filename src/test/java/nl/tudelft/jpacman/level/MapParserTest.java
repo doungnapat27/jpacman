@@ -1,6 +1,5 @@
 package nl.tudelft.jpacman.level;
 
-import nl.tudelft.jpacman.PacmanConfigurationException;
 import nl.tudelft.jpacman.board.BoardFactory;
 import nl.tudelft.jpacman.npc.ghost.Blinky;
 import org.junit.jupiter.api.Assertions;
@@ -12,7 +11,6 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -46,6 +44,9 @@ public class MapParserTest {
         Mockito.verify(levelFactory, Mockito.times(1)).createGhost();
     }
 
+    /**
+     * Test for the parseMap method (good map).
+     */
     @Test
     public void testParseMapGood2() {
         MockitoAnnotations.initMocks(this);
