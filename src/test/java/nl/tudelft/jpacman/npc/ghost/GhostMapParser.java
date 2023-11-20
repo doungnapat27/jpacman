@@ -31,8 +31,9 @@ public final class GhostMapParser extends MapParser {
         this.ghostFactory = ghostFactory;
     }
 
-    //This method only supports clyde for now
-    //You should add extra cases for ghosts you need.
+    /**This method only supports clyde for now
+    You should add extra cases for ghosts you need.
+     */
     @Override
     protected void addSquare(Square[][] grid, List<Ghost> ghosts,
                              List<Square> startPositions, int x, int y, char c) {
