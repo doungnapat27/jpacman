@@ -1,12 +1,7 @@
 package nl.tudelft.jpacman.level;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -311,6 +306,7 @@ public class Level {
         assert pellets >= 0;
         return pellets;
     }
+
 
     /**
      * A task that moves an NPC and reschedules itself after it finished.
